@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int order=0;
+   printf("Enter your order number: ");
+    scanf("%d", &order);
+ switch(order)
+    {
+        case 1:
+            printf("food item:pizza,\nRs:239");
+            break;
+
+        case 2:
+            printf("food item:burger,\nRs:129");
+            break;
+
+        case 3:
+            printf("food item:pasta,\nRs:179");
+            break;
+
+        case 4:
+            printf("food item: french fries,\nRs:99");
+            break;
+
+         case 5:
+              printf("food item:sandwich,\nRs:149");
+             break;
+        default:
+       printf("order is not not found ");
+    }
+    return 0;
+}
