@@ -2,8 +2,10 @@
 int main() 
 { 
     int a, b, result; 
-     
-    scanf("%d%d", &a, &b); 
+    printf("enter the first number:");
+    scanf ("%d",&a);
+    printf("enter the second number:");
+    scanf("%d",&b); 
     result = LCM(a, b); 
     printf("The LCM of %d and %d is %d\n", a, b, result); 
     return 0; 
